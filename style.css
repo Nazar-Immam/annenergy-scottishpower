@@ -657,7 +657,11 @@ font-weight: 400;
     font-weight: 800;
     font-size: 18px;
     text-shadow: 0 0 15px var(--accent-green);
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    line-height: 1;
   }
 
   .sym-cross {
